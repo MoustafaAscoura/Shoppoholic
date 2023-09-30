@@ -21,7 +21,7 @@ export default function ProductView () {
     return productData? (<div className="container">
         <div className="row g-5">
             <div className="col-12 col-md-6 sec-border p-3">
-                <img className="w-100" src={productData.thumbnail} alt=""></img>
+                <img className="w-100 product-main-img" src={productData.thumbnail} alt=""></img>
                 <div className="mt-2 d-flex h-auto justify-content-between">
                     {productData.images.slice(0,3).map((imageURL, index)=>{
                         return <img className="product-img img-fluid" src={imageURL} key={index} alt="Product"/> 
@@ -40,8 +40,8 @@ export default function ProductView () {
                     <h2 className={productData.discountPercentage? 'd-inline-block text-decoration-line-through':''} >$ {productData.price}</h2>
                     {productData.discountPercentage?
                     
-                        <><h2 className="fst-italic d-inline-block mt-2 ms-5">${(productData.discountPercentage * productData.price / 100).toFixed(1)}</h2>
-                        <span className="fst-italic ms-5" >For a limited time!</span></>
+                        <><h2 className="fst-italic d-inline-block mt-2 ms-3">${((100 - productData.discountPercentage) * productData.price / 100).toFixed(1)}</h2>
+                        <span className="fst-italic ms-5" >{productData.discountPercentage}% off for a limited time!</span></>
                         :<></>}
                 </div>
                 <hr/>
@@ -51,7 +51,7 @@ export default function ProductView () {
                         :<Badge bg="danger">Out of Stock</Badge>}
                         <p className="m-0 d-flex align-items-center"><strong>Brand:</strong>{productData.brand}</p>
                     </div>
-                    <AddCartButton className="mt-1 h-25"/>
+                    <AddCartButton product={productData} className="mt-1 h-25"/>
                 </div>
             </div>
         </div>

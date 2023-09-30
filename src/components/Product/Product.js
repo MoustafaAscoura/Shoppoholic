@@ -25,7 +25,7 @@ export default function Product (props) {
                 </div>
                 <div>
                     <Stars rating={product.rating}/>
-                    <AddCartButton className="p-absolute bottom-0 mt-3"/>
+                    <AddCartButton product={product} className="p-absolute bottom-0 mt-3"/>
                 </div>
             </div>
         </div>

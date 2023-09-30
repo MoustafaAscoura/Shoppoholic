@@ -10,6 +10,20 @@
   border-color: var(--section-bg);
 }
 
+nav span.bg-danger {
+    position: absolute;
+    display: block;
+    width: 20px;
+    top: -5px;
+    left: 20px;
+    height: 20px;
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
 .primary {
   background-color: var(--primary) !important;
   color: var(--main) !important;
@@ -51,10 +65,21 @@ div.rating svg{
 }
 
 img {
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .product-img {
   width: 30%;
   object-fit:cover; 
+}
+
+.product-main-img{
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+#cart tr img{
+  max-height: 150px;
+  object-fit: cover;
+  padding: 5px;
 }
