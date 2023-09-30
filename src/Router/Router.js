@@ -10,6 +10,7 @@ import NotFound from '../Pages/NotFound/NotFound'
 
 export default function Router () {
     return (<Routes>
+        <Route path="" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/product/:id" element={<ProductView />} />
