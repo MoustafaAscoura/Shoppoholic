@@ -10,13 +10,13 @@ import NotFound from '../Pages/NotFound/NotFound'
 
 export default function Router () {
     return (<Routes>
-        <Route path="Shoppoholic" element={<Home />} />
-        <Route path="Shoppoholic/products" element={<Products />} />
-        <Route path="Shoppoholic/product/:id" element={<ProductView />} />
-        <Route path="Shoppoholic/offers" element={<Offers />} />
-        <Route path="Shoppoholic/login" element={<Login />} />
-        <Route path="Shoppoholic/signup" element={<Signup />} />
-        <Route path="Shoppoholic/cart" element={<Cart />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/product/:id" element={<ProductView />} />
+        <Route path="/offers" element={<Offers />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
     </Routes>)
 }
