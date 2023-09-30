@@ -1,5 +1,39 @@
+:root {
+  --main: #F0F1F2;
+  --secondary: #04BFBF;
+  --primary: #027373;
+  --section-bg: #BF8173;
+}
+
+* {
+  background-color: var(--main); 
+  border-color: var(--section-bg);
+}
+
+.primary {
+  background-color: var(--primary) !important;
+  color: var(--main) !important;
+}
+
+.secondary {
+  background-color: var(--secondary) ;
+  color: var(--main);
+}
+
+.section-bg {
+  background-color: var(--section-bg);
+  color: var(--main);
+}
+
+a.active {
+  text-decoration: underline;
+  color: var(--secondary) !important;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +41,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div.rating svg{
+  color: var(--secondary) !important;
+}
+
+.sec-border {
+  border: 2px solid var(--secondary) !important;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 3px;
+}
+
+.product-img {
+  width: 30%;
+  object-fit:cover; 
 }
