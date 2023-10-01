@@ -44,8 +44,8 @@ export default function Header() {
             <NavLink className="nav-link" to="/login">Login</NavLink>
             <NavLink className="nav-link me-2" to="/signup">Sign Up</NavLink>
             <Navbar.Text onClick={e => changeTheme(e)} className="m-0 p-0"><FontAwesomeIcon icon={faCircleHalfStroke}/></Navbar.Text>
-            <Navbar.Text onClick={e => changelang(e)} className="ms-lg-2"><FontAwesomeIcon className="ms-lg-2 me-1" icon={faGlobe} />{lang}</Navbar.Text>
-            <NavLink className=" ms-lg-2 nav-link position-relative" to="/cart">
+            <Navbar.Text onClick={e => changelang(e)} className="ps-lg-2 pe-lg-2 ms-lg-2 me-lg-2"><FontAwesomeIcon className="me-2" icon={faGlobe} />{lang}</Navbar.Text>
+            <NavLink className="nav-link position-relative" to="/cart">
               <FontAwesomeIcon icon={faCartShopping} />
               {Object.keys(cart).length ? <span className='bg-danger'>{Object.keys(cart).length}</span>:<></>}
               </NavLink>
