@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkecommerce=self.webpackChunkecommerce||[]).push([[767],{7767:function(e,n,c){c.r(n),c.d(n,{default:function(){return r}});var u=c(184);function r(){return(0,u.jsx)("div",{children:"404 Not Found!"})}}}]);
+//# sourceMappingURL=767.d35a1352.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/841.04934b21.chunk.js","mappings":"qKAAe,SAASA,IACpB,OAAQC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,gBACjB,C","sources":["Pages/Offers/Offers.js"],"sourcesContent":["export default function Offers () {\n    return (<div>Offers Here!</div>)\n}"],"names":["Offers","_jsx","children"],"sourceRoot":""}
