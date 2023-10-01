@@ -8,11 +8,11 @@ import { useSelector } from 'react-redux';
 import { useContext } from 'react';
 import LanguageContext from '../../context/LangaugeContext'
 import ThemeContext from '../../context/ThemeContext'
-
 export default function Header() {
   const {theme,setTheme} = useContext(ThemeContext)
   const {lang,setLang} = useContext(LanguageContext)
-
+  const cart = useSelector(state => state.cart.cartbody)
+  
   const changeTheme = (e) => {
     if (theme === "light") {
       setTheme("dark")
@@ -29,7 +29,6 @@ export default function Header() {
     }
   }
 
-  const cart = useSelector(state => state.cart.cartbody)
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container className="rounded">
@@ -41,12 +40,12 @@ export default function Header() {
             <NavLink className="nav-link" to="/offers">Offers %</NavLink>
 
           </Nav>
-          <Nav className='align-items-center'>
+          <Nav className='align-items-lg-center'>
             <NavLink className="nav-link" to="/login">Login</NavLink>
             <NavLink className="nav-link me-2" to="/signup">Sign Up</NavLink>
             <Navbar.Text onClick={e => changeTheme(e)} className="m-0 p-0"><FontAwesomeIcon icon={faCircleHalfStroke}/></Navbar.Text>
-            <Navbar.Text onClick={e => changelang(e)} className="ms-2"><FontAwesomeIcon className="ms-2 me-1" icon={faGlobe} />{lang}</Navbar.Text>
-            <NavLink className=" ms-2 nav-link position-relative" to="/cart">
+            <Navbar.Text onClick={e => changelang(e)} className="ms-lg-2"><FontAwesomeIcon className="ms-lg-2 me-1" icon={faGlobe} />{lang}</Navbar.Text>
+            <NavLink className=" ms-lg-2 nav-link position-relative" to="/cart">
               <FontAwesomeIcon icon={faCartShopping} />
               {Object.keys(cart).length ? <span className='bg-danger'>{Object.keys(cart).length}</span>:<></>}
               </NavLink>

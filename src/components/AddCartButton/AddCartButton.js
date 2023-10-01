@@ -22,7 +22,7 @@ export default function AddCartButton (props) {
     const handleClick = (e) => {
         e.target.innerText === "Add to Cart" ? 
         dispatch(addToCart(product))
-        : dispatch(deleteAllFromCart(product));
+        : dispatch(deleteAllFromCart(product.id));
         
         e.target.innerText = e.target.classList.toggle('primary')? "Add to Cart":"Remove from Cart";
     }
