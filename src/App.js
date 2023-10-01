@@ -9,7 +9,7 @@ import ThemeContext from "./context/ThemeContext";
 function App() {
   const [ theme , setTheme ] = useState('light')
   const [ lang , setLang ] = useState('en')
-  return (
+  return (  
     <BrowserRouter>
     
       <div
