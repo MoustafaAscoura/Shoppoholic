@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Shoppoholic/static/css/main.20a54b46.css",
-    "main.js": "/Shoppoholic/static/js/main.52e2d7e6.js",
+    "main.js": "/Shoppoholic/static/js/main.fadd829c.js",
     "static/js/687.8c2c9c4d.chunk.js": "/Shoppoholic/static/js/687.8c2c9c4d.chunk.js",
-    "static/css/24.ab2e13ee.chunk.css": "/Shoppoholic/static/css/24.ab2e13ee.chunk.css",
-    "static/js/24.8218df28.chunk.js": "/Shoppoholic/static/js/24.8218df28.chunk.js",
-    "static/js/587.976b886e.chunk.js": "/Shoppoholic/static/js/587.976b886e.chunk.js",
+    "static/css/24.a01ca4e9.chunk.css": "/Shoppoholic/static/css/24.a01ca4e9.chunk.css",
+    "static/js/24.48ca1534.chunk.js": "/Shoppoholic/static/js/24.48ca1534.chunk.js",
+    "static/js/587.4e699483.chunk.js": "/Shoppoholic/static/js/587.4e699483.chunk.js",
     "static/js/841.04934b21.chunk.js": "/Shoppoholic/static/js/841.04934b21.chunk.js",
     "static/js/219.6d7dbf3e.chunk.js": "/Shoppoholic/static/js/219.6d7dbf3e.chunk.js",
     "static/js/955.62a910d9.chunk.js": "/Shoppoholic/static/js/955.62a910d9.chunk.js",
@@ -15,11 +15,11 @@
     "static/js/132.39fc7e13.chunk.js": "/Shoppoholic/static/js/132.39fc7e13.chunk.js",
     "index.html": "/Shoppoholic/index.html",
     "main.20a54b46.css.map": "/Shoppoholic/static/css/main.20a54b46.css.map",
-    "main.52e2d7e6.js.map": "/Shoppoholic/static/js/main.52e2d7e6.js.map",
+    "main.fadd829c.js.map": "/Shoppoholic/static/js/main.fadd829c.js.map",
     "687.8c2c9c4d.chunk.js.map": "/Shoppoholic/static/js/687.8c2c9c4d.chunk.js.map",
-    "24.ab2e13ee.chunk.css.map": "/Shoppoholic/static/css/24.ab2e13ee.chunk.css.map",
-    "24.8218df28.chunk.js.map": "/Shoppoholic/static/js/24.8218df28.chunk.js.map",
-    "587.976b886e.chunk.js.map": "/Shoppoholic/static/js/587.976b886e.chunk.js.map",
+    "24.a01ca4e9.chunk.css.map": "/Shoppoholic/static/css/24.a01ca4e9.chunk.css.map",
+    "24.48ca1534.chunk.js.map": "/Shoppoholic/static/js/24.48ca1534.chunk.js.map",
+    "587.4e699483.chunk.js.map": "/Shoppoholic/static/js/587.4e699483.chunk.js.map",
     "841.04934b21.chunk.js.map": "/Shoppoholic/static/js/841.04934b21.chunk.js.map",
     "219.6d7dbf3e.chunk.js.map": "/Shoppoholic/static/js/219.6d7dbf3e.chunk.js.map",
     "955.62a910d9.chunk.js.map": "/Shoppoholic/static/js/955.62a910d9.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.20a54b46.css",
-    "static/js/main.52e2d7e6.js"
+    "static/js/main.fadd829c.js"
   ]
 }
