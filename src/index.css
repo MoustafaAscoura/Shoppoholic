@@ -1,13 +1,12 @@
 :root {
   --main: #F0F1F2;
   --secondary: #04BFBF;
-  --primary: #027373;
+  --primary: #0273739a;
   --section-bg: #BF8173;
 }
 
-* {
-  background-color: var(--main); 
-  border-color: var(--section-bg);
+.dark {
+  background-color: var(--primary) !important;
 }
 
 nav span.bg-danger {
@@ -42,6 +41,11 @@ nav span.bg-danger {
 a.active {
   text-decoration: underline;
   color: var(--secondary) !important;
+}
+
+.mirror {
+  transform: rotate(180deg);
+  /*transform: scaleX(-1); */
 }
 
 body {
