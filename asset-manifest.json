@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shoppoholic/static/css/main.20a54b46.css",
-    "main.js": "/Shoppoholic/static/js/main.fadd829c.js",
+    "main.css": "/Shoppoholic/static/css/main.71e6b69d.css",
+    "main.js": "/Shoppoholic/static/js/main.7423b277.js",
     "static/js/687.8c2c9c4d.chunk.js": "/Shoppoholic/static/js/687.8c2c9c4d.chunk.js",
     "static/css/24.a01ca4e9.chunk.css": "/Shoppoholic/static/css/24.a01ca4e9.chunk.css",
     "static/js/24.48ca1534.chunk.js": "/Shoppoholic/static/js/24.48ca1534.chunk.js",
@@ -14,8 +14,8 @@
     "static/js/787.dcc73137.chunk.js": "/Shoppoholic/static/js/787.dcc73137.chunk.js",
     "static/js/132.39fc7e13.chunk.js": "/Shoppoholic/static/js/132.39fc7e13.chunk.js",
     "index.html": "/Shoppoholic/index.html",
-    "main.20a54b46.css.map": "/Shoppoholic/static/css/main.20a54b46.css.map",
-    "main.fadd829c.js.map": "/Shoppoholic/static/js/main.fadd829c.js.map",
+    "main.71e6b69d.css.map": "/Shoppoholic/static/css/main.71e6b69d.css.map",
+    "main.7423b277.js.map": "/Shoppoholic/static/js/main.7423b277.js.map",
     "687.8c2c9c4d.chunk.js.map": "/Shoppoholic/static/js/687.8c2c9c4d.chunk.js.map",
     "24.a01ca4e9.chunk.css.map": "/Shoppoholic/static/css/24.a01ca4e9.chunk.css.map",
     "24.48ca1534.chunk.js.map": "/Shoppoholic/static/js/24.48ca1534.chunk.js.map",
@@ -29,7 +29,7 @@
     "132.39fc7e13.chunk.js.map": "/Shoppoholic/static/js/132.39fc7e13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20a54b46.css",
-    "static/js/main.fadd829c.js"
+    "static/css/main.71e6b69d.css",
+    "static/js/main.7423b277.js"
   ]
 }
