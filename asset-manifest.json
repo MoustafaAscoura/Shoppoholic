@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Shoppoholic/static/css/main.3b591023.css",
-    "main.js": "/Shoppoholic/static/js/main.eaa1e112.js",
+    "main.css": "/Shoppoholic/static/css/main.c551e872.css",
+    "main.js": "/Shoppoholic/static/js/main.c8aba972.js",
     "static/js/787.dcc73137.chunk.js": "/Shoppoholic/static/js/787.dcc73137.chunk.js",
     "index.html": "/Shoppoholic/index.html",
-    "main.3b591023.css.map": "/Shoppoholic/static/css/main.3b591023.css.map",
-    "main.eaa1e112.js.map": "/Shoppoholic/static/js/main.eaa1e112.js.map",
+    "main.c551e872.css.map": "/Shoppoholic/static/css/main.c551e872.css.map",
+    "main.c8aba972.js.map": "/Shoppoholic/static/js/main.c8aba972.js.map",
     "787.dcc73137.chunk.js.map": "/Shoppoholic/static/js/787.dcc73137.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b591023.css",
-    "static/js/main.eaa1e112.js"
+    "static/css/main.c551e872.css",
+    "static/js/main.c8aba972.js"
   ]
 }
